@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>My family book</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>My Family book</h1>
+        <p>This is my family.It contains 10 members.</p>
+        <img id="book" src="family book.png">
+        <h4 id="Name">Family book</h4>
+    <button id="next" onclick="update()">Next</button>
+    </body>
+    <hr>
+    <script>
+        var photos=[
+        "grandfather.jpg",
+        "grandmother.jpg",
+        "uncle.jpg",
+        "aunt.jpg",
+        "father.jpg",
+        "mother.jpg",
+        "sister1.jpg",
+        "sister2.jpg",
+        "me.jpg",
+        "brother.jpg"
+        ];
+        var names=[
+        "G.Jayanth reddy",
+        "G.Manemma",
+        "G.Damodar reddy",
+        "G.Vijaya",
+        "G.Srinivasu reddy",
+        "G.Swapna",
+        "G.Sindhuja",
+        "G.Sanjana",
+        "G.Sai Nitika",
+        "G.Shiva Prajit reddy"
+        ];
+        var i=0;
+    function update(){
+   document.getElementById("Name").innerHTML=names[i];
+   document.getElementById("book").src=photos[i];
+   i++;
+    }
+     </script>
+</html>

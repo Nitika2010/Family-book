@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(#D71D2D,#FF36AB,#FF74D4);
+}
+#book{
+width: 400px;
+height: 400px;
+}
